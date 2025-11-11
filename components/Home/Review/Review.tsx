@@ -8,7 +8,7 @@ const responsive = {
     desktop: {
         breakpoint: { max: 3000, min: 1224 },
         items: 3,
-        slidesToSlide: 3 // optional, default to 1.
+        slidesToSlide: 1 // optional, default to 1.
     },
     tablet: {
         breakpoint: { max: 1224, min: 764 },  
@@ -47,9 +47,10 @@ const Review = () => {
                     autoPlay={true}
                     autoPlaySpeed={4000}
                 >
-                    <ReviewCard reviewTitle="Great Work!" userName='Janice Tay' userImage='/images/c1.jpg' role='UI/UX Designer'/>
-                    <ReviewCard reviewTitle="!!" userName='Janice Tay' userImage='/images/c2.png' role='UI/UX Designer'/>
-                    <ReviewCard reviewTitle="Great Work!" userName='Janice Tay' userImage='/images/c3.png' role='UI/UX Designer'/>
+                    <ReviewCard reviewTitle="Great Work!" userName='BebekJK' userImage='/images/c1.jpg' role='Mantan Tops' companyName='PINTU' companyImage='/images/cc1.png' description='"Orang yang paling tidak bahagia adalah mereka yang takut pada perubahan"
+'/>
+                    <ReviewCard reviewTitle="Apik Pol Rek!" userName='Dik Denzel' userImage='/images/c2.jpg' role='Menkom Uhuy' companyName='PINTU' companyImage='/images/cc1.png' description='#amazing#shashabeautiful #adelinebeautiful#bomchubbyboy'/>
+                    <ReviewCard reviewTitle="Mantap Jos" userName='Will Not' userImage='/images/c3.jpg' role='Menkom juga' companyName='PINTU' companyImage='/images/cc1.png' description='Proud of what we built together at TikTok TechJam 2025 — PrivaStream — which won both the Overall Champion and People’s Choice Award!'/>
                 </Carousel>
             </div>
         </div>

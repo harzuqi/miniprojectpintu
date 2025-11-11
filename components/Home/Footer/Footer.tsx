@@ -67,7 +67,7 @@ const Footer = () => {
         </div>
         {/* button part */}
         <div className='mt-8 w-[80%] mx-auto border-t pt-8 flex flex-col md:flex-row justify-between items-center text-gray-600 text-sm'>
-            <p className='text-center text-white md:text-left'>Copyright © 2024 harzuqiDev. All rights reserved.</p>
+            <p className='text-center text-white md:text-left'>Copyright © 2025 harzuqiDev. All rights reserved.</p>
             <div className='flex items-center text-white space-x-4 mt-4 md:mt-0'>
                 <span className='hover:text-gray-500 text-white'>
                     <FaFacebook/>

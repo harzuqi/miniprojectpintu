@@ -22,9 +22,6 @@ const Services = () => {
                 <div data-aos='fade-right' data-aos-anchor-placement='top-center'>
                     <ServiceCard image="/images/s1.png" title="Custom Softwares Development" />
                 </div>
-                <div data-aos='fade-right' data-aos-anchor-placement='top-center' data-aos-delay='100'>
-                    <ServiceCard image="/images/s1.png" title="Custom Softwares Development" />
-                </div>
                 <div data-aos='fade-right' data-aos-anchor-placement='top-center' data-aos-delay='200'>
                     <ServiceCard image="/images/s2.png" title="Website Design & Development" />
                 </div>

@@ -7,10 +7,13 @@ type Props = {
     userName: string;
     userImage: string;
     role: string;
+    companyImage: string;
+    companyName: string;
+    description: string;
     // tambahin text disini kalo mau
 }
 
-const ReviewCard = ({reviewTitle, role, userImage, userName}:Props) => {
+const ReviewCard = ({reviewTitle, role, userImage, userName, description, companyImage, companyName}:Props) => {
   return (
     <div className='bg-gray-100 p-6 rounded-lg mr-4 shadow-md'>
         <h1 className='text-2xl font-bold text-black'>{reviewTitle}</h1>
@@ -21,10 +24,7 @@ const ReviewCard = ({reviewTitle, role, userImage, userName}:Props) => {
             <FaStar className='text-yellow-500 w-5 h-6'/>
             <FaStar className='text-yellow-500 w-5 h-6'/>
         </div>
-        <p className='mt-4 text-base md:text-lg font-medium text-gray-800'>
-            {/* ganti jadi {}  */}
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-        </p>
+        <p className='mt-4 text-base md:text-lg font-medium text-gray-800'>{description}</p>
         <span className='block w-full h-[1px] bg-gray-300 mt-6 mb-6'></span>
         <div className='flex items-center justify-between'>
             <div className='flex items-center space-x-4'>
@@ -36,7 +36,7 @@ const ReviewCard = ({reviewTitle, role, userImage, userName}:Props) => {
                 </div>
             </div>
             <div>
-                <Image src='/images/c4.png' alt='google' width={80} height={80}/>
+                <Image src={companyImage} alt={companyName} width={80} height={80}/>
             </div>
         </div>
     </div>

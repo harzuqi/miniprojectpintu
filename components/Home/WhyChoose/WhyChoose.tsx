@@ -13,7 +13,7 @@ const WhyChoose = () => {
                 {/* subheading */}
                 <p className='text-sm sm:text-base md:text-xl font-bold text-blue-700 dark:text-pink-500 uppercase'>Why Choose Us?</p>
                 {/* heading */}
-                <h1 className='text-2xl md:text-3xl lg:text-5xl mt-3 font-bold leading-[1.8rem] md:leading-[1.8rem]'>Innovations Excellence Building Digital Future Together</h1>
+                <h1 className='text-2xl md:text-3xl lg:text-5xl mt-3 font-bold leading-[1.8rem] md:leading-[3rem]'>Innovations Excellence Building Digital Future Together</h1>
                 {/* line */}
                 <div className='mt-8 mb-8 w-full h-[1px] bg-gray-200 dark:bg-gray-700'></div>
                 {/* list type feature */}
